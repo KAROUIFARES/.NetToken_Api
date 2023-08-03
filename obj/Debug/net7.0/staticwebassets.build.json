@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wggVo98Bn9bgaa8qtA2sCXfTfvt3dybFI3bfyS6vstY=",
+  "Source": "DotnetToken",
+  "BasePath": "_content/DotnetToken",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
