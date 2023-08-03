@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "BCrypt.Net/0.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net35/BCrypt.Net.dll": {
-            "related": ".XML"
-          }
-        },
-        "runtime": {
-          "lib/net35/BCrypt.Net.dll": {
-            "related": ".XML"
-          }
-        }
-      },
       "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -124,19 +111,6 @@
     }
   },
   "libraries": {
-    "BCrypt.Net/0.1.0": {
-      "sha512": "sST2w361Dxt9GGMfpOTiK50wXGV64Ybb1hiX3xjEWnhVYZNF43NuySGwADJa7X1R+bA53NsFR+tuDxcYiJeIOA==",
-      "type": "package",
-      "path": "bcrypt.net/0.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bcrypt.net.0.1.0.nupkg.sha512",
-        "bcrypt.net.nuspec",
-        "lib/net35/BCrypt.Net.XML",
-        "lib/net35/BCrypt.Net.dll"
-      ]
-    },
     "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "sha512": "yxFvk9BsgL/eDJVsPp0zbUpL73u9uXLYTnWoMBvnJdm8+970YuhM2XWcDOyetjkp8l8z00MHgfYHCRXOnLx/+Q==",
       "type": "package",
@@ -481,7 +455,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BCrypt.Net >= 0.1.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -492,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\OneDrive\\Bureau\\DotnetToken\\DotnetToken.csproj",
+      "projectUniqueName": "C:\\Users\\fares\\DotnetToken\\DotnetToken\\DotnetToken.csproj",
       "projectName": "DotnetToken",
-      "projectPath": "C:\\Users\\fares\\OneDrive\\Bureau\\DotnetToken\\DotnetToken.csproj",
+      "projectPath": "C:\\Users\\fares\\DotnetToken\\DotnetToken\\DotnetToken.csproj",
       "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\OneDrive\\Bureau\\DotnetToken\\obj\\",
+      "outputPath": "C:\\Users\\fares\\DotnetToken\\DotnetToken\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -524,10 +497,6 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
-          "BCrypt.Net": {
-            "target": "Package",
-            "version": "[0.1.0, )"
-          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.5, )"
@@ -559,17 +528,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'BCrypt.Net 0.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "BCrypt.Net",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

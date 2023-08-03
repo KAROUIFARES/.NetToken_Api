@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "zjuJtrBY09qdpDydItCePtPAeimPhf2HnzfGuFahk5vEjYP3Zj3RwNS3/GiSLfWsIWHT/FyHplu5LgcYNX4JQw==",
+  "dgSpecHash": "zpyf6yogDLzDeLmCz5pMrEKLqcvRNLAEinSexUbmfFl60zHOsMWBIUBb2Z4rsMn8ZtxrQpN+YTw3/JXJB4AxXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fares\\OneDrive\\Bureau\\DotnetToken\\DotnetToken.csproj",
+  "projectFilePath": "C:\\Users\\fares\\DotnetToken\\DotnetToken\\DotnetToken.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fares\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
     "C:\\Users\\fares\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\fares\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\fares\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
@@ -13,16 +12,5 @@
     "C:\\Users\\fares\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\fares\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Le package 'BCrypt.Net 0.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
-      "libraryId": "BCrypt.Net",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
