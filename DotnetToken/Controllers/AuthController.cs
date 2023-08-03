@@ -7,7 +7,7 @@ namespace controller
         [HttpPost("register")]
         public ActionResult<user>Register(UserDto request)
         {
-            
+            string passwordHash=BCrypt.Net.BCrypt.HAshPassword(request.Password);
             
         }
     }
