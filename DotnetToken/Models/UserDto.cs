@@ -2,7 +2,7 @@ namespace Models
 {
     public class User
     {
-        public string Username{get;set;}=string.Empty;
-        public string PasswordHash{get;set;}=string.Empty;
+        public required string Username{get;set;}
+        public required string Password{get;set;}
     }
 }
